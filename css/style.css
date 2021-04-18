@@ -209,21 +209,23 @@ nav ul li a:hover {
   padding: 5px 0;
 }
 #follow h2 {
+  width: 100%;
   color: black;
 }
 #follow ul {
+  width: 100%;
   list-style-type: none;
   padding: 0;
   display: flex;
   justify-content: center;
 }
-#follow li {
+#follow ul li {
   font-size: 1.5em;
   margin: 0 10px;
 }
-#follow li a {
+#follow ul li a {
   color: black;
 }
-#follow li a:hover {
+#follow ul li a:hover {
   color: white;
 }
